@@ -1,5 +1,6 @@
 package com.example.payex2.input;
 
+import com.example.payex2.enumeration.Genre;
 import lombok.Data;
 
 @Data
@@ -18,7 +19,7 @@ public class TvShowInput {
     private int releasedEpisodeCount;
 
     private String summary;
-    private Enum genre ;
+    private Genre genre ;
 
     private String imdbLink;
 }

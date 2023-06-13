@@ -1,5 +1,6 @@
 package com.example.payex2.model;
 
+import com.example.payex2.enumeration.Genre;
 import com.example.payex2.input.TvShowInput;
 import com.example.payex2.output.TvShowOutput;
 import jakarta.persistence.*;
@@ -35,7 +36,7 @@ public class TvShow {
     private String imdbLink;
 
     @Column(name= "Genre")
-    private Enum genre ;
+    private Genre genre ;
 
 
 
